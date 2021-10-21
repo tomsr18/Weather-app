@@ -383,30 +383,30 @@ const getWindDirection = function (x) {
 
 const weatherCondition = function (img, x) {
   if (x >= 0 && x <= 19) {
-    img.src = `http://openweathermap.org/img/wn/01d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/01d@2x.png`;
   } else if (x >= 20 && x <= 29) {
-    img.src = `http://openweathermap.org/img/wn/09d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/09d@2x.png`;
   } else if (x >= 30 && x <= 39) {
-    img.src = `http://openweathermap.org/img/wn/03d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/03d@2x.png`;
   } else if (x >= 40 && x <= 49) {
-    img.src = `http://openweathermap.org/img/wn/04d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/04d@2x.png`;
   } else if (x >= 50 && x <= 69) {
-    img.src = `http://openweathermap.org/img/wn/09d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/09d@2x.png`;
   } else if (x >= 70 && x <= 79) {
-    img.src = `http://openweathermap.org/img/wn/13d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/13d@2x.png`;
   } else if (x >= 80 && x <= 99) {
-    img.src = `http://openweathermap.org/img/wn/11d@2x.png`;
+    img.src = `https://openweathermap.org/img/wn/11d@2x.png`;
   }
 };
 
-// cloudy http://openweathermap.org/img/wn/04d@2x.png
-// little cloud http://openweathermap.org/img/wn/03d@2x.png
-// rain http://openweathermap.org/img/wn/09d@2x.png
-// snow http://openweathermap.org/img/wn/13d@2x.png
-// thunder http://openweathermap.org/img/wn/11d@2x.png
-// windy http://openweathermap.org/img/wn/50d@2x.png
-// sunny http://openweathermap.org/img/wn/01d@2x.png
-// partly sunny http://openweathermap.org/img/wn/02d@2x.png
+// cloudy https://openweathermap.org/img/wn/04d@2x.png
+// little cloud https://openweathermap.org/img/wn/03d@2x.png
+// rain https://openweathermap.org/img/wn/09d@2x.png
+// snow https://openweathermap.org/img/wn/13d@2x.png
+// thunder https://openweathermap.org/img/wn/11d@2x.png
+// windy https://openweathermap.org/img/wn/50d@2x.png
+// sunny https://openweathermap.org/img/wn/01d@2x.png
+// partly sunny https://openweathermap.org/img/wn/02d@2x.png
 
 // Event listeners
 getMyWeatherBtn.addEventListener("click", function () {
