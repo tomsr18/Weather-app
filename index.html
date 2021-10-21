@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app inc.</title>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="logo">Weather app inc.</div>
+
+    <!-- Input fields -->
+
+    <div class="submit">
+      <div class="container">
+        <div class="option">
+          <p>Weather at your location</p>
+          <button id="location-btn">Get my Weather</button>
+        </div>
+        <div class="option">
+          <p>Choose a city</p>
+          <div class="dropdown">
+            <select class="cities" id="select">
+              <option>Choose a city</option>
+              <option value="Berlin">Berlin</option>
+              <option value="São Paulo">São Paulo</option>
+              <option value="Toronto">Toronto</option>
+              <option value="Adelaide">Adelaide</option>
+              <option value="Cape Town">Cape Town</option>
+              <option value="Tbilisi">Tbilisi</option>
+              <option value="New Delhi">New Delhi</option>
+              <option value="Reykjavik">Reykjavik</option>
+            </select>
+            <button id="city-btn">Get my Weather</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content starts here -->
+
+    <div class="container weather none">
+        <h1 class="city">Forecast in Riga at time, date</h1>
+        <h1>Current weather</h1>
+        <div class="forecast">
+
+            <div class="day hour0">
+                <img src="#" alt="image" class="hr0-img">
+                <h2 id="hr0-temp">Temp</h2>
+                <h3 id="hr0-wind-direction">wind direction</h3>
+                <h3 id="hr0-wind-speed">wind speed</h3>
+                <h4 id="hr0-time">Time</h4>
+            </div>
+            
+            <div class="day hour1">
+                <img src="#" alt="image" class="hr1-img">
+                <h2 id="hr1-temp">Temp</h2>
+                <h3 id="hr1-wind-direction">wind direction</h3>
+                <h3 id="hr1-wind-speed">wind speed</h3>
+                <h4 id='hr1-time'>Time</h4>
+            </div>
+            
+            <div class="day hour2">
+                <img src="#" alt="image" class="hr2-img">
+                <h2 id="hr2-temp">Temp</h2>
+                <h3 id="hr2-wind-direction">wind direction</h3>
+                <h3 id="hr2-wind-speed">wind speed</h3>
+                <h4 id='hr2-time'>Time</h4>
+            </div>
+            
+            <div class="day hour3">
+                <img src="#" alt="image" class="hr3-img">
+                <h2 id="hr3-temp">Temp</h2>
+                <h3 id="hr3-wind-direction">wind direction</h3>
+                <h3 id="hr3-wind-speed">wind speed</h3>
+                <h4 id='hr3-time'>Time</h4>
+            </div>
+            
+            <div class="day hour4">
+                <img src="#" alt="image" class="hr4-img">
+                <h2 id="hr4-temp">Temp</h2>
+                <h3 id="hr4-wind-direction">wind direction</h3>
+                <h3 id="hr4-wind-speed">wind speed</h3>
+                <h4 id='hr4-time'>Time</h4>
+            </div>
+            
+            <div class="day hour5">
+                <img src="#" alt="image" class="hr5-img">
+                <h2 id="hr5-temp">Temp</h2>
+                <h3 id="hr5-wind-direction">wind direction</h3>
+                <h3 id="hr5-wind-speed">wind speed</h3>
+                <h4 id='hr5-time'>Time</h4>
+            </div>
+            
+            <div class="day hour6">
+                <img src="#" alt="image" class="hr6-img">
+                <h2 id="hr6-temp">Temp</h2>
+                <h3 id="hr6-wind-direction">wind direction</h3>
+                <h3 id="hr6-wind-speed">wind speed</h3>
+                <h4 id='hr6-time'>Time</h4>
+            </div>
+            
+            <div class="day hour7">
+                <img src="#" alt="image" class="hr7-img">
+                <h2 id="hr7-temp">Temp</h2>
+                <h3 id="hr7-wind-direction">wind direction</h3>
+                <h3 id="hr7-wind-speed">wind speed</h3>
+                <h4 id='hr7-time'>Time</h4>
+            </div>
+           
+        </div>
+      <h1 class="days7">Forecast for next 7 days</h1>
+      <div class="forecast">
+        <div class="day day1">
+          <img src="#" alt="image" class="day1-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day2">
+          <img src="#" alt="image" class="day2-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day3">
+          <img src="#" alt="image" class="day3-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day4">
+          <img src="#" alt="image" class="day4-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day5">
+          <img src="#" alt="image" class="day5-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day6">
+          <img src="#" alt="image" class="day6-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+        
+        <div class="day day7">
+          <img src="#" alt="image" class="day7-img"/>
+          <div class="info">
+            <h2>High temp</h2>
+            <h3>Low temp</h3>
+            <h4>Date</h4>
+            </div>
+        </div>
+
+        
+        </div>
+        <button class="refresh">Back</button>
+      </div>
+    </div>
+    <footer>Made by Toms Ronis</footer>
+  </body>
+</html>
